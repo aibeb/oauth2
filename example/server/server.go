@@ -38,8 +38,8 @@ func main() {
 
 	srv := server.NewServer(server.NewConfig(), manager)
 
-	srv.SetPasswordAuthorizationHandler(func(username, password string) (userID string, err error) {
-		if username == "test" && password == "test" {
+	srv.SetPasswordAuthorizationHandler(func(clientID, username, password string) (userID string, err error) {
+		if clientID == "222222" && username == "test" && password == "test" {
 			userID = "test"
 		}
 		return
