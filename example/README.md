@@ -82,6 +82,6 @@ Open the browser [http://localhost:9094/client](http://localhost:9094/client)
 }
 ```
 
-![login](https://raw.githubusercontent.com/go-oauth2/oauth2/master/example/server/static/login.png)
-![auth](https://raw.githubusercontent.com/go-oauth2/oauth2/master/example/server/static/auth.png)
-![token](https://raw.githubusercontent.com/go-oauth2/oauth2/master/example/server/static/token.png)
+![login](https://raw.githubusercontent.com/aibeb/oauth2/master/example/server/static/login.png)
+![auth](https://raw.githubusercontent.com/aibeb/oauth2/master/example/server/static/auth.png)
+![token](https://raw.githubusercontent.com/aibeb/oauth2/master/example/server/static/token.png)

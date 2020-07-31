@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/aibeb/oauth2/v4"
+	"github.com/aibeb/oauth2/v4/errors"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/go-oauth2/oauth2/v4"
-	"github.com/go-oauth2/oauth2/v4/errors"
 	"github.com/google/uuid"
 )
 

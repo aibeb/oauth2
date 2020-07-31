@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/go-oauth2/oauth2/v4"
+	"github.com/aibeb/oauth2/v4"
 )
 
 // SetTokenType token type

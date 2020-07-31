@@ -7,13 +7,13 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/aibeb/oauth2/v4"
+	"github.com/aibeb/oauth2/v4/errors"
+	"github.com/aibeb/oauth2/v4/manage"
+	"github.com/aibeb/oauth2/v4/models"
+	"github.com/aibeb/oauth2/v4/server"
+	"github.com/aibeb/oauth2/v4/store"
 	"github.com/gavv/httpexpect"
-	"github.com/go-oauth2/oauth2/v4"
-	"github.com/go-oauth2/oauth2/v4/errors"
-	"github.com/go-oauth2/oauth2/v4/manage"
-	"github.com/go-oauth2/oauth2/v4/models"
-	"github.com/go-oauth2/oauth2/v4/server"
-	"github.com/go-oauth2/oauth2/v4/store"
 )
 
 var (
